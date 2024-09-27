@@ -17,7 +17,7 @@ const Footer = () => {
         >
           <ul className="flex space-x-4">
             <li><a href="/properties.html">Propriétés</a></li>
-            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/terms.html">Conditions Générales</a></li>
           </ul>
         </div>
         <div>

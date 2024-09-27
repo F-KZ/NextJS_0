@@ -8,9 +8,9 @@ import { GlobalProvider } from '@/context/GlobalContext';
 import 'photoswipe/dist/photoswipe.css'
 
 export const metadata = {
-    title: 'Property Pulse',
-    keywords: 'rental, property, real estate',
-    description: 'Find the perfect property'
+    title: 'Vacances & Chill',
+    keywords: 'location, propriété, vacances',
+    description: 'Trouvez la propriété de vos rêves'
 }
 
 const MainLayout = ({ children }) => {

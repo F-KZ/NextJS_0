@@ -92,7 +92,7 @@ const Navbar = () => {
             />
 
             <span className="hidden md:block text-white text-2xl font-bold ml-2"
-              >PropertyPulse</span
+              >Vacances & Chill</span
             >
           </Link>
          { /* Desktop Menu Hidden below md screens */}
@@ -211,7 +211,7 @@ const Navbar = () => {
                 tabIndex="-1"
                 id="user-menu-item-0"
                 onClick={() => setIsProfileOpen(false) }
-                >Your Profile</Link>
+                >Mon Profil</Link>
               <Link
                 href="/properties/saved"
                 className="block px-4 py-2 text-sm text-gray-700"
@@ -219,7 +219,7 @@ const Navbar = () => {
                 tabIndex="-1"
                 id="user-menu-item-2"
                 onClick={() => setIsProfileOpen(false) }
-                >Saved Properties</Link>
+                >Favori</Link>
               <button
                 className="block px-4 py-2 text-sm text-gray-700"
                 role="menuitem"
@@ -247,17 +247,17 @@ const Navbar = () => {
         <Link
           href="/"
           className={`${pathname === '/' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
-          >Home</Link>
+          >Accueil</Link>
         <Link
           href="/properties"
          className={`${pathname === '/properties' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
-          >Properties</Link
+          >Propriétés</Link
         >
         { session && (
            <Link
           href="/properties/add"
          className={`${pathname === '/properties/add' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
-          >Add Property</Link>
+          >J'ajoute ma Propriété</Link>
 
         )}
 
@@ -266,7 +266,7 @@ const Navbar = () => {
           className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 my-5"
         >
           <i className="fa-brands fa-google mr-2"></i>
-          <span>session or Register</span>
+          <span>Connexion</span>
         </button>
 
         )}
