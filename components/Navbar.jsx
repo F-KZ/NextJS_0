@@ -8,7 +8,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { signIn, signOut, useSession, getProviders } from 'next-auth/react'
-import UnreadMessage from './unreadMessage.jsx';
+import UnreadMessage from './UnreadMessage';
 
 const Navbar = () => {
   const { data: session } = useSession()
