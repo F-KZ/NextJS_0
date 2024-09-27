@@ -3,7 +3,7 @@ import { useGlobalContext } from "@/context/GlobalContext";
 
 const UnreadMessage = () => {
     const { unreadCount } = useGlobalContext()
-    console.log(unreadCount);
+   
     
 
     return (

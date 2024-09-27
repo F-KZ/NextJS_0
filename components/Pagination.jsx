@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 
 const Pagination = ({ page, pageSize, totalItems }) => {
     const totalPages = Math.ceil(totalItems / pageSize)

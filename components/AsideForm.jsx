@@ -29,10 +29,10 @@ const AsideForm = ({ property }) => {
         <BookmarkButton property={property}/>
         <ShareButton property={property}/>
 
-        { state.submitted ? <p className="text-green-500 mb-4">Your message has been sent</p> : (
+        { state.submitted ? <p className="text-green-500 mb-4">Message bien envoyé !</p> : (
            session && (
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <h3 className="text-xl font-bold mb-6">Contact Property Manager</h3>
+          <h3 className="text-xl font-bold mb-6">Contacter le Propriétaire !</h3>
           <form action={formAction}>
           <input 
           type="hidden" 
@@ -51,7 +51,7 @@ const AsideForm = ({ property }) => {
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="name"
               >
-                Name:
+                Nom:
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -83,7 +83,7 @@ const AsideForm = ({ property }) => {
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="phone"
               >
-                Phone:
+                Telephone:
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"

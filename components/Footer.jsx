@@ -16,13 +16,13 @@ const Footer = () => {
           className="flex flex-wrap justify-center md:justify-start mb-4 md:mb-0"
         >
           <ul className="flex space-x-4">
-            <li><a href="/properties.html">Properties</a></li>
+            <li><a href="/properties.html">Propriétés</a></li>
             <li><a href="/terms.html">Terms of Service</a></li>
           </ul>
         </div>
         <div>
           <p className="text-sm text-gray-500 mt-2 md:mt-0">
-            &copy; { currentYear } PropertyPulse. All rights reserved.
+            &copy; { currentYear } Franck Kanza. All rights reserved.
           </p>
         </div>
       </div>

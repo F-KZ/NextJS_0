@@ -30,8 +30,9 @@ const SearchResultPage = async ({ searchParams: { location, propertyType }}) => 
  }
 
  const propertiesQueryResult = await Property.find(query).lean()
- const properties = convertObject(propertiesQueryResult)
- console.log(properties);
+ // t'as enlever le convertObject
+ const properties = propertiesQueryResult
+
  
     return (
         <>

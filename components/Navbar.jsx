@@ -62,7 +62,7 @@ const Navbar = () => {
             onClick={()=> setIsMobileOpen((prev) => !prev)}
           >
             <span className="absolute -inset-0.5"></span>
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">Ouvrez le Menu</span>
             <svg
               className="block h-6 w-6"
               fill="none"
@@ -101,18 +101,18 @@ const Navbar = () => {
               <Link
                 href="/"
                 className={`${pathname === '/' ? 'bg-black' : null} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >Home</Link
+                >Accueil</Link
               >
               <Link
                 href="/properties"
                className={`${pathname === '/properties' ? 'bg-black' : null} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >Properties</Link
+                >Propriétés</Link
               >
               { session && (
                 <Link
                 href="/properties/add"
                 className={`${pathname === '/properties/add' ? 'bg-black' : null} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >Add Property</Link
+                >J'ajoute une Propriété</Link
               >
               )}
               
@@ -133,7 +133,7 @@ const Navbar = () => {
             >
             <FaGoogle className='text-white mr-2'/>
               <i className="fa-brands fa-google text-white mr-2"></i>
-              <span>session or Register</span>
+              <span>Connexion</span>
             </button>
             ))
             }
@@ -152,7 +152,7 @@ const Navbar = () => {
               className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
             >
               <span className="absolute -inset-1.5"></span>
-              <span className="sr-only">View notifications</span>
+              <span className="sr-only">Mes Notifications</span>
               <svg
                 className="h-6 w-6"
                 fill="none"
@@ -230,7 +230,7 @@ const Navbar = () => {
                   signOut()
                 }}
               >
-                Sign Out
+                Deconnexion
               </button>
             </div>
              )}

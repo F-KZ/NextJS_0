@@ -3,7 +3,7 @@ import Property from '@/models/Property';
 import PropertyCard from '@/components/PropertyCard';
 import Pagination from '@/components/Pagination';
 
-const PropertiesPage = async ({ searchParams: { page = 1, pageSize = 2} }) => {
+const PropertiesPage = async ({ searchParams: { page = 1, pageSize = 3} }) => {
   await dbConnect()
 
   const skip = ( page - 1 ) * pageSize
